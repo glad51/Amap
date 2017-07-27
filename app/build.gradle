@@ -24,9 +24,9 @@ android {
     }
     signingConfigs {
         debug {
-            keyAlias 'zz'
+            keyAlias 'dawn'
             keyPassword '123456'
-            storeFile file('F:/Keystore/zz.jks')
+            storeFile file('../dawn.jks')
             storePassword '123456'
         }
     }
